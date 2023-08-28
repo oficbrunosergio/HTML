@@ -1,0 +1,37 @@
+<!-- FORMS
+    Capturar dados de entrada
+    Input 
+    Action > define para qual url será enviado os dados, vazio enviado
+    para mesmo url Method
+    GET - Que é propio para informações cigilosas tipo Bancarias.
+    (Não as exibe na URL).
+
+    POST - (Exibe as informaçõs na URL).-->
+
+<form action="" method="get" enctype="multipart/form-data">
+
+    <h1>Digite seu endereço:</h1>
+  <label>
+    Rua:
+    <input type="text" name="rua" autocomplete="street-address"/>
+    </label>   
+
+    <label>
+        Numero:
+    <input type="number" name="numero" autocomplete="street-address"/>
+    </label> 
+    <table>
+
+    Email:
+    <input type="Email:" name="email"/>
+    </table>
+
+    <label>
+    Foto:
+    <input type="file" name="arquivo"/>
+    </label>
+
+<button type="reset"> Reset </button>
+<button type="submit"> Enviar dados</button>
+
+</form>
